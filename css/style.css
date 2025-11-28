@@ -63,6 +63,7 @@ img{
     border-top-left-radius: 30px;
     width: 100%;
     padding: 0 10px;
+    height:calc(100vh - 90px);
 }
 
 .chat-section-header{
@@ -95,10 +96,10 @@ img{
     border-radius: 50%;
 }
 
+/* chat list section */
 .chat-list{
-    list-style-type:none;
+    height: 100%;
     overflow-y: auto;
-    overflow: hidden;
 }
 
 .chat-list-item{
@@ -126,6 +127,13 @@ img{
 .chat-infos span:nth-child(2){
     font-size: .85rem;
 }
+
+.chat-list-item:nth-child(2), .chat-list-item:hover{
+    background-color: #26262e;
+    color: white;
+    border-radius: 25px;
+}
+
 footer{
     background-color: #2d2d35;
     height: 80px;
