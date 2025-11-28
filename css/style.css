@@ -5,3 +5,28 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #141318;
+}
+
+.container{
+    display: flex;
+    overflow: hidden;
+}
+
+.sidebar{
+    height: calc(100vh - 80px);
+    min-width: 80px;
+}
+
+.chat-section{
+    background-color: #1c1d22;
+    margin-top: 10px;
+    border-top-left-radius: 30px;
+    width: 100%;
+}
+
+footer{
+    background-color: #2d2d35;
+    height: 80px;
+}
