@@ -14,6 +14,19 @@ img{
     max-width: 100%;
 }
 
+/* utils */
+.red{
+    background-color: #f94349;
+}
+
+.yellow{
+    background-color: #f4a71b;
+}
+
+.green{
+    background-color: #39a65d;
+}
+
 /* LAYOUT */
 
 .container{
@@ -169,4 +182,45 @@ a{
 .footer-profile-pic{
     width: 36px;
     border-radius: 50%;
+}
+
+/* BONUS */
+.status{
+    content: '';
+    display: inline-block;
+    border: 3px solid #1c1d22;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+.chat-list-item div:first-child{
+    position: relative;
+}
+
+.chat-list-item:hover .status{
+    border-color:#26262e ;
+}
+
+/* new chat button */
+.new-chat-btn{
+    position: fixed;
+    color: white;
+    font-size: 2rem;
+    bottom: 90px;
+    right: 20px;
+    background-color: #5683e9;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.new-chat-btn:hover{
+    cursor: pointer;
+}
+
+.search-btn:hover, .add-friends-btn:hover{
+    cursor: pointer;
 }
